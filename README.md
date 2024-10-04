@@ -12,9 +12,11 @@ Neovim configuration, set up with `lazy.nvim`, a plugin manager that allows for 
 - **LSP Integration**: Language Server Protocol support for enhanced coding experience.
 
 ## Installation
-1. **Backup your current configuration**
+1. **Backup your current neovim files**
     ```bash
-    mv ~/.config/nvim nvim.bak
+    mv ~/.config/nvim ~/.config/nvim.bak
+    mv ~/.local/share/nvim ~/.local/share/nvim.bak
+    mv ~/.local/state/nvim ~/.local/state/nvim.bak
 
 1. **Clone the Repository**
    ```bash
