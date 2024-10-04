@@ -12,6 +12,9 @@ Neovim configuration, set up with `lazy.nvim`, a plugin manager that allows for 
 - **LSP Integration**: Language Server Protocol support for enhanced coding experience.
 
 ## Installation
+1. **Backup your current configuration**
+    ```bash
+    mv ~/.config/nvim nvim.bak
 
 1. **Clone the Repository**
    ```bash
@@ -23,7 +26,10 @@ Neovim configuration, set up with `lazy.nvim`, a plugin manager that allows for 
 - a Nerd Font(v3.0 or greater) (optional, but needed to display some icons)
 
 3. **Open Neovim**
-Launch Neovim to automatically install the plugins specified in the configuration.
+    ```bash
+    nvim
+
+Launching Neovim automatically install the plugins specified in the configuration.
 
 ## Configuration
 
@@ -34,3 +40,7 @@ You can customize key mappings in `~/.config/nvim/lua/keymappings.lua`.
 ### Plugins
 
 Add or remove plugins in the `~/.config/nvim/lua/plugins` folder as per your requirements.
+
+### options
+change the neovim options in
+`~/.config/nvim/lua/options.lua`
