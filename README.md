@@ -34,13 +34,3 @@ You can customize key mappings in `~/.config/nvim/lua/keymappings.lua`.
 ### Plugins
 
 Add or remove plugins in the `~/.config/nvim/lua/plugins` folder as per your requirements.
-
-## Usage
-
-- To open the plugin management interface, use the command:
-  ```vim
-   :Lazy
-
-- To install new plugins, run:
-    ```vim
-    :Lazy install
