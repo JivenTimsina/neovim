@@ -7,8 +7,5 @@ return {
     "MunifTanjim/nui.nvim",
   },
   config = function()
-    -- Set the keybinding to toggle Neo-tree
-    vim.keymap.set("n", "<leader>e", ":Neotree toggle<CR>", {})
-      vim.cmd("Neotree reveal left")
     end
 }
