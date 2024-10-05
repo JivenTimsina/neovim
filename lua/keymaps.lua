@@ -24,7 +24,7 @@ vim.keymap.set("n", "<leader>fg", builtin.live_grep, { desc = "Telescope live gr
 
 -- toggleterm.lua
 local toggleterm = require("toggleterm")
-vim.keymap.set("n", "<leader>t", toggleterm.toggle, { noremap = true, silent = true })
+vim.keymap.set("n", "<C-t>", toggleterm.toggle, { noremap = true, silent = true })
 
 
 --format code
